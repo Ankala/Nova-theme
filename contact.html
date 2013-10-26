@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">		
+	<title>Modèle Nova v0.1</title>
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen"/>	
+</head>
+<body>
+<div class="bandeau-haut">
+	<div id="menu-contenant">
+		<nav> 
+		<ul class="nav">
+		<li><a href="index.html">Accueil</a></li>
+		<li><a href="http://gw2.ankala.fr">Lien externe</a></li>
+		<li><a href="formattage.html">Formattage</a></li>
+	    <li><a href="contenu1.html">Contenu 1</a></li>
+		<li class="active"><a href="contenu2.html">Contenu 2</a></li>
+		</ul>
+		</nav> 
+    <div class="clear"></div>
+</div>
+</div>
+
+
+<div id="contenumod">
+
+<form id="contact" method="post" action="contact/traitement_formulaire.php">
+<div class="box">
+<h1>Contact</h1>
+<label>
+<span>Nom</span>
+<input type="text" class="input_text" name="nom" id="nom"/>
+</label>
+<label>
+<span>Email</span>
+<input type="text" class="input_text" name="email" id="email"/>
+</label>
+<label>
+<span>Objet</span>
+<input type="text" class="input_text" name="objet" id="objet"/>
+</label>
+<label>
+<span>Message</span>
+<textarea class="message" name="message" id="message"></textarea>
+<input type="submit" class="button" name="envoi" value="Envoyer le message" />
+</label>
+</div>
+</form>
+
+</div>
+
+<div id="contenutoc">
+<h1>Navigation</h1>
+<div id="menuvert">
+  <ol>
+    <li><a href="#preambule" title="Preambule">Préambule</a></li>
+    <li><a href="#intro" title="Introduction">Introduction</a></li>
+    <li><a href="#chap1 title="Chapitre1">Chapitre 1</a></li>
+	<ol class="sousliste">
+      <li><a href="#these" title="Thèse">Thèse</a></li>
+      <li><a href="#anti" title="Anti Thèse">Anti Thèse</a></li>
+      <li><a href="#synth" title="Synthèse">Synthèse</a></li>
+    </ol>
+    <li><a href="#chap2" title="Chapitre2">Chapitre 2</a></li>
+    <li><a href="#sources" title="Sources">Sources</a></li>
+    <li><a href="#annexes" title="Annexes">Annexes</a></li>
+  </ol>
+</div>
+
+</div>
+
+</body>
+</html>
